@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(112, 188, 243);
+    padding: 10%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+header button {
+    margin-left: 24px;
+    border: none;
+    background-color: rgb(75, 147, 199);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+header img {
+    height: 80px;
+    margin-right: 2px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 610px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 8px;
+}
+
+form input {
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(75, 147, 199);
+}
+
+form button {
+    background-color: rgb(75, 147, 199);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+input,
+button {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+ul li {
+    max-width: 28%;
+    list-style: none;
+    position: relative;
+    max-height: 280px;
+    overflow-y: hidden;
+    font-size: 24px;
+    padding: 6px;
+}
