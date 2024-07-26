@@ -12,4 +12,7 @@ $(document).ready(function() {
         $(novoItem).fadeIn(1000);
         $('#tarefa-adicionada').val('');
     })
+    $('#lista-afazeres').on('click', function() {
+        $('li').css("text-decoration", "line-through");
+    })
 })
