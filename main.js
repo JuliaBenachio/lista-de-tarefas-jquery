@@ -11,8 +11,9 @@ $(document).ready(function() {
         $(novoItem).appendTo('ul');
         $(novoItem).fadeIn(1000);
         $('#tarefa-adicionada').val('');
+        $(novoItem).on('click', function() {
+            $(this).css("text-decoration", "line-through");
+        })
     })
-    $('#lista-afazeres').on('click', function() {
-        $('li').css("text-decoration", "line-through");
-    })
+    
 })
